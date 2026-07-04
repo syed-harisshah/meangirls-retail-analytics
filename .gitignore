@@ -1,0 +1,15 @@
+# Credentials — never commit tokens
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Tableau local workbooks (publish to Tableau Public instead)
+*.twb
+*.twbx
+*.hyper
